@@ -1,0 +1,132 @@
+@charset 'UTF-8';
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, dialog, figcaption, figure, footer, header, hgroup, menu, command, nav, section, summary, time, mark, embed, audio, video, source, progress, meter{
+    background : transparent;
+    border : 0 none;
+    font-size : 100%;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    outline : 0;
+    vertical-align : top;
+}
+
+fieldset, form, label, legend, keygen, input, output, textarea, datalist{
+    font-size : 100%;
+    margin : 0;
+    padding : 0;
+    vertical-align : top;
+}
+
+ol, ul, li{
+    list-style : none;
+}
+
+blockquote, q{
+    quotes : none;
+}
+
+table, table th, table td{
+    padding : 0;
+    border : none;
+    border-collapse : collapse;
+}
+
+img, embed{
+    vertical-align : top;
+}
+
+/* 
+
+common css 2014.05.13 
+
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, dialog, figcaption, figure, footer, header, hgroup, menu, command, nav, section, summary, time, mark, embed, audio, video, source, progress, meter, fieldset, form, label, legend, keygen, input, output, textarea, datalist{
+    /*high brid*/
+            user-select : none;
+    -webkit-user-select : none;
+    /*no select text*/
+            touch-callout : none;
+    -webkit-touch-callout : none;
+    /*delete long tap link popup*/
+            box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+       -moz-box-sizing : border-box;
+         -o-box-sizing : border-box;
+        -ms-box-sizing : border-box;
+    /*Android a tag 以外も効いてしまうので*/
+            tap-highlight-color : transparent;
+    -webkit-tap-highlight-color : transparent;
+    /* default highlight color transparent */
+}
+
+html{
+    font-size : 13px;
+}
+
+body{
+    color : #222;
+    font-family : 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    /*font-size:13px;*/
+    line-height : 1.5;
+    -webkit-text-size-adjust : 100%;
+    text-align : center;
+}
+
+a{
+    text-decoration : none;
+    /*high brid*/
+    background-color : transparent;
+            tap-highlight-color : transparent;
+    -webkit-tap-highlight-color : transparent;
+    /* default highlight color transparent */
+}
+
+a:link, a:visited{
+    color : #222;
+}
+
+a:hover, a:active{
+    color : #222;
+}
+
+/*high brid*/
+a.tccolor.touchstyle{
+    background-color : #fdc462;
+}
+
+/*タップ*/
+a.tccolor.notouchstyle{
+    background-color : transparent;
+}
+
+/*離す*/
+input[type=text]{
+    -webkit-user-select : auto;
+}
+
+/* utility */
+.tCenter{
+    text-align : center;
+}
+
+.tLeft{
+    text-align : left;
+}
+
+.tRight{
+    text-align : right;
+}
+
+/* clearfix */
+.clearfix:after{
+    content : '';
+    display : block;
+    clear : both;
+}
+
+.map{
+    width : 800px;
+    height : 500px;
+    margin : 0 auto;
+}
+/*# sourceMappingURL=index.css.map */

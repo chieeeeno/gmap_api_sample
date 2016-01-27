@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gmap_api_sample</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 9
+        });
+      }
+
+    </script>
+    <script src="js/lib/fastclick.min.js"></script>
+    <script src="js/lib/jquery.2.1.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj2qdZPCh149EEXaQfQIGw0qOmkYo9z6E&callback=initMap">
+    </script>
+  </body>
+</html>
