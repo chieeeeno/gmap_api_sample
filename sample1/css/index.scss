@@ -7,3 +7,29 @@
   height: 500px;
   margin: 0 auto;
 }
+
+table{
+  &.shopData{
+    width: 80%;
+    margin:20px auto 50px auto;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-spacing:0px;
+    tr{
+      th,
+      td{
+        border-bottom: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        padding: 7px;
+      }
+      th{
+        background: #E6EAFF;
+      }
+      td{
+        text-align: left;
+      }
+    }
+  }
+
+}
+

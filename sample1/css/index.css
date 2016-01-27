@@ -129,4 +129,23 @@ input[type=text]{
     height : 500px;
     margin : 0 auto;
 }
+
+table.shopData{
+    width : 80%;
+    margin : 20px auto 50px auto;
+    border-top : 1px solid #ccc;
+    border-left : 1px solid #ccc;
+    border-spacing : 0;
+}
+table.shopData tr th, table.shopData tr td{
+    border-bottom : 1px solid #ccc;
+    border-right : 1px solid #ccc;
+    padding : 7px;
+}
+table.shopData tr th{
+    background : #e6eaff;
+}
+table.shopData tr td{
+    text-align : left;
+}
 /*# sourceMappingURL=index.css.map */
