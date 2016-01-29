@@ -98,22 +98,11 @@
       </tr>
       
     </table>
-    <script type="text/javascript">
-
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 9
-        });
-      }
-
-    </script>
     <script src="js/lib/fastclick.min.js"></script>
     <script src="js/lib/jquery.2.1.1.min.js"></script>
     <script src="js/index.js"></script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj2qdZPCh149EEXaQfQIGw0qOmkYo9z6E&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj2qdZPCh149EEXaQfQIGw0qOmkYo9z6E&callback=mapApiClientReady">
     </script>
   </body>
 </html>
