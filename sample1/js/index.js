@@ -118,6 +118,10 @@ function showMap(){
   }
   
   
+  /**
+   * ピンをクリックした時のバルーンの表示設定
+   * @param {Object} _data 地図の座標や住所のデータ
+   */
   function fAddBallon(_data){
     console.log(_data);
     var id = _data.id;
@@ -188,6 +192,3 @@ function getJsonData(_url){
 }
 
 
-/*===================================
- YouTube Data API setting
-===================================*/
