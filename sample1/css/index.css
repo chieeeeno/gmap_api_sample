@@ -42,9 +42,6 @@ common css 2014.05.13
 */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, dialog, figcaption, figure, footer, header, hgroup, menu, command, nav, section, summary, time, mark, embed, audio, video, source, progress, meter, fieldset, form, label, legend, keygen, input, output, textarea, datalist{
     /*high brid*/
-            user-select : none;
-    -webkit-user-select : none;
-    /*no select text*/
             touch-callout : none;
     -webkit-touch-callout : none;
     /*delete long tap link popup*/

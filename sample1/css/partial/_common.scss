@@ -17,8 +17,8 @@ footer, header, hgroup, menu, command, nav, section, summary,
 time, mark, embed, audio, video, source,
 progress, meter,fieldset, form, label, legend, keygen, input, output, textarea, datalist{
 	/*high brid*/
-	user-select:none;
-	-webkit-user-select: none; /*no select text*/
+//	user-select:none;
+//	-webkit-user-select: none; /*no select text*/
 	touch-callout:none;
 	-webkit-touch-callout:none; /*delete long tap link popup*/
 	box-sizing:border-box;
