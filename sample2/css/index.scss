@@ -1,0 +1,37 @@
+@import "partial/_reset.scss";
+@import "partial/_common.scss";
+
+@charset "utf-8";
+.map{
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(../img/spinner.gif) no-repeat center center;
+  background-size:64px 64px;
+}
+
+table{
+  &.shopData{
+    width: 80%;
+    margin:20px auto 50px auto;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-spacing:0px;
+    tr{
+      th,
+      td{
+        border-bottom: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        padding: 7px;
+      }
+      th{
+        background: #E6EAFF;
+      }
+      td{
+        text-align: left;
+      }
+    }
+  }
+
+}
+
