@@ -2,6 +2,14 @@
 @import "partial/_common.scss";
 
 @charset "utf-8";
+header{
+  background: #0052d4;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
 .map{
   width: 800px;
   height: 500px;

@@ -121,6 +121,14 @@ input[type=text]{
     clear : both;
 }
 
+header{
+    background : #0052d4;
+    color : #fff;
+    text-align : left;
+    padding : 10px;
+    font-size : 1.5rem;
+}
+
 .map{
     width : 800px;
     height : 500px;
