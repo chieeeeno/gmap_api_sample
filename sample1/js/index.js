@@ -42,16 +42,7 @@ function mapApiClientReady(){
       var timer = setTimeout(function(){
         getCoordinate(addressTxt);
       },500 * i);
-    })
-    
-    setTimeout(console.table(mapData),500*dataMaxLength);
-
-    var timerID = setInterval(function(){
-      if(vPointCountTotal ==vPointCount){
-        clearInterval(timerID);
-        showMap();
-      }
-    },200);
+    });
   });
   
 }
@@ -86,6 +77,11 @@ function getCoordinate(_address){
       vAveLat += lat;
       vAveLng += lng;
       vPointCount++;
+      
+      //取得した座標データを元に地図を描画する
+      if(vPointCountTotal == vPointCount){
+        showMap();
+      }
       
     }
   });
